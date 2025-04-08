@@ -48,14 +48,14 @@ Copy your Supabase URL and anon key from the project settings.
 
 ## 4. Configure Supabase Client
 In your project folder, create a new file named src/supabase-client.js and paste the following configuration:
-
+```bash
 import { createClient } from '@supabase/supabase-js';
 // Initialize Supabase client with your credentials
 const supabaseUrl = 'https://your-project-id.supabase.co';
 const supabaseKey = 'your-public-anon-key';
 const supabase = createClient(supabaseUrl, supabaseKey);
 export default supabase;
-
+```
 Replace your-project-id and your-public-anon-key with your actual Supabase credentials.
 
 ## 5. Run the Application
