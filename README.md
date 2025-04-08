@@ -26,7 +26,7 @@ Follow these steps to set up the project locally.
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/supabase-admin-panel.git
+git clone https://github.com/faizaniqbalLC/supabase-admin-panel.git
 cd supabase-admin-panel
 ```
 2. Install dependencies
